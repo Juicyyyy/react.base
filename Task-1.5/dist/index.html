@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Менеджер задач</title>
+</head>
+<body>
+    <h1>Менеджер задач</h1>
+    <div class="task-form">
+        <input id="title" type="text" placeholder="Заголовок" required />
+        <input id="description" type="text" placeholder="Описание" required />
+        <input id="deadline" type="date" placeholder="Крайний срок" />
+        <input id="assignee" type="text" placeholder="Ответственное лицо" />
+        <input id="location" type="text" placeholder="Место проведения" />
+        <button id="addTask">Добавить задачу</button>
+    </div>
+    <div class="filter">
+        <label for="statusFilter">Фильтр по статусу:</label>
+        <select id="statusFilter">
+            <option value="all">Все</option>
+            <option value="Выполнено">Выполненные</option>
+            <option value="Не выполнено">Не выполненные</option>
+        </select>
+    
+        <label for="typeFilter">Фильтр по типу:</label>
+        <select id="typeFilter">
+            <option value="all">Все</option>
+            <option value="urgent">Срочные</option>
+            <option value="normal">Обычные</option>
+        </select>
+    </div>
+    <div class="task-list" id="taskList"></div>
+    <script src="./index.js"></script>
+</body>
+</html>
