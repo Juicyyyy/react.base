@@ -1,0 +1,77 @@
+.header {
+    height: 76px;
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding: 0 16px 0 16px;
+
+    &__icon {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #090909;
+        cursor: pointer;
+    }
+
+    &__wrapper-input {
+        position: relative;
+        width: calc(100% - 316px);
+    }
+
+    &__search {
+        height: 60px;
+        width: calc(100% - 52px);
+        background: #F2F7F7;
+        border-radius: 16px;
+        padding-left: 52px;
+        border: none;
+        font-size: 22px;
+
+        &::placeholder {
+            font-size: 22px;
+            font-weight: 412px;
+            line-height: 22px;
+            color: #BCCDD1;
+        }
+    }
+
+    &__loupe {
+        content: '';
+        position: absolute;
+        background-image: url(../../assets/icon/loupe.svg);
+        left: 12px;
+        top: 13px;
+        pointer-events: none;
+        width: 32px;
+        height: 32px;
+    }
+
+    &__wrapper-button {
+        display: flex;
+        gap: 16px;
+    }
+
+    &__button {
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+    }
+
+    &__basket {
+        background-image: url(../../assets/icon/basket.svg);
+    }
+
+    &__orders {
+        background-image: url(../../assets/icon/orders.svg);
+    }
+
+    &__favorites {
+        background-image: url(../../assets/icon/favorites.svg);
+    }
+
+    &__profile{
+        background-image: url(../../assets/icon/profile.svg);
+    }
+}
