@@ -1,0 +1,8 @@
+[
+    { "id": 1, "name": "Mana Potion", "type": "potion", "rarity": "common", "width": 1, "height": 1 },
+    { "id": 2, "name": "Battle Axe", "type": "weapon", "rarity": "epic", "width": 2, "height": 2 },
+    { "id": 3, "name": "Hat", "type": "equipment", "rarity": "common", "width": 1, "height": 1 },
+    { "id": 4, "name": "Shield", "type": "equipment", "rarity": "rare", "width": 4, "height": 4 },
+    { "id": 5, "name": "Sword", "type": "weapon", "rarity": "rare", "width": 1, "height": 1 },
+    { "id": 6, "name": "Battle Axe", "type": "weapon", "rarity": "rare", "width": 2, "height": 2 }
+]
