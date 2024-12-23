@@ -1,0 +1,46 @@
+.footer {
+    background-color: #F2F7F7;
+    height: 76px;
+    padding: 22px 56px 0 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__text {
+        color: #BCCDD1;
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    &__right {
+        display: flex;
+        gap: 28px;
+        align-items: center;
+    }
+
+    &__icons {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+
+    &__icon {
+        width: 32px;
+        height: 32px;
+        background-repeat: no-repeat;
+    }
+
+    &__telegram {
+        background-image: url(../../assets/icon/telegram.svg);
+    }
+
+    &__dzen {
+        background-image: url(../../assets/icon/dzen.svg);
+    }
+
+    &__youtube {
+        background-image: url(../../assets/icon/youtube.svg);
+        width: 38px;
+        height: 27px;
+    }
+}

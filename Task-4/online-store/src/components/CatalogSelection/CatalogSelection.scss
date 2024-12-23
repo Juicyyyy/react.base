@@ -1,0 +1,16 @@
+.catalog-selection {
+    position: relative;
+    margin-top: 210px;
+
+    &__title {
+        display: block;
+        position: absolute;
+        top: -107px;
+        min-width: 440px;
+        max-width: 750px;
+        height: 185px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

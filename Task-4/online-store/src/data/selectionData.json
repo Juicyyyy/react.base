@@ -1,0 +1,89 @@
+{
+    "home": [
+        {
+            "id": 1,
+            "name": "Столовая вилка, великоустюгский завод «Северная чернь», серебро 925 пробы",
+            "image": "Picture.png",
+            "price": 4499,
+            "star": 4.8,
+            "like": 8492
+        },
+        {
+            "id": 2,
+            "name": "Бузинная палочка, 2 шт",
+            "image": "Picture2.png",
+            "price": 1448,
+            "star": 5.0,
+            "like": 7113
+        },
+        {
+            "id": 3,
+            "name": "Лампа с джином",
+            "image": "Picture3.png",
+            "price": 3599,
+            "oldPrice": 7599,
+            "star": 3.1,
+            "like": 5587
+        },
+        {
+            "id": 4,
+            "name": "Кольцо всевластия из фильма «Пластелин колец»",
+            "image": "Picture4.png",
+            "price": 50999,
+            "star": 5.0,
+            "like": 3828
+        },
+        {
+            "id": 5,
+            "name": "Ожерелье Серсеи Ланнистер из сериала «Игра престолов»",
+            "image": "Picture5.png",
+            "price": 14699,
+            "oldPrice": 18998,
+            "star": 4.2,
+            "like": 2951
+        },
+        {
+            "id": 6,
+            "name": "Ковёр-самолёт",
+            "image": "Picture6.png",
+            "price": 49999,
+            "star": 4.0,
+            "like": 2444
+        },
+        {
+            "id": 7,
+            "name": "Распределяющая шляпа",
+            "image": "Picture7.png",
+            "price": 47,
+            "oldPrice": 470,
+            "star": 5.0,
+            "like": 2193
+        },
+        {
+            "id": 8,
+            "name": "Плащ-невидимка",
+            "image": "Picture8.png",
+            "price": 0,
+            "oldPrice": 18998,
+            "star": 5.0,
+            "like": 2224
+        },
+        {
+            "id": 9,
+            "name": "Машина времени Delorean DMC-12",
+            "image": "Picture9.png",
+            "price": 19890,
+            "star": 4.5,
+            "like": 2035
+        },
+        {
+            "id": 10,
+            "name": "Массажер «Мурашка»",
+            "image": "Picture10.png",
+            "price": 0,
+            "oldPrice": 18998,
+            "star": 3.1,
+            "like": 1835
+        }
+    ]
+}
