@@ -9,9 +9,10 @@
         display: block;
         position: absolute;
         top: 0;
+        left: 7px;
         background-image: url(../../assets/img/Для_дома.png);
-        width: 855px;
-        height: 220px;
+        width: 783px;
+        height: 198px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -41,7 +42,7 @@
     &__wrapper {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 6px;
+        margin-bottom: -2px;
     }
 
     &__wrapper-price {
@@ -54,6 +55,7 @@
         color: #FFFFFF;
         font-size: 40px;
         line-height: 40px;
+        font-weight: 700;
     }
 
     &__old-price {
@@ -67,7 +69,13 @@
         color: #FFFFFF;
         font-size: 15px;
         line-height: 15px;
-        margin-bottom: 12px;
+        margin-bottom: 9px;
+        height: 16px;
+        font-weight: 550;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        letter-spacing: -0.4px;
     }
 
     &__wrapper-rating {
@@ -81,6 +89,7 @@
         color: #FFFFFF;
         font-size: 15px;
         line-height: 15px;
+        font-weight: 550;
 
         &.star {
             background-image: url(../../assets/icon/Star_white.svg);

@@ -1,6 +1,6 @@
 .categories {
     margin-top: 8px;
-    margin-bottom: 60px;
+    margin-bottom: 57px;
 
     &__list {
         display: flex;
@@ -31,7 +31,11 @@
     }
 
     &__title {
-        line-height: 15px;
-        font-size: 16px;
+        line-height: 14px;
+        font-size: 14px;
+        font-weight: 550;
+        width: 90px;
+        hyphens: auto;
+        overflow-wrap: break-word;
     }
 }

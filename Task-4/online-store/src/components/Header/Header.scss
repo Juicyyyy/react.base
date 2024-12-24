@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
-    align-items: center;
     padding: 0 16px 0 16px;
 
     &__icon {
@@ -13,6 +12,7 @@
         line-height: 28px;
         color: #090909;
         cursor: pointer;
+        padding-top: 5px;
     }
 
     &__wrapper-input {
@@ -24,10 +24,11 @@
         height: 60px;
         width: calc(100% - 52px);
         background: #F2F7F7;
-        border-radius: 16px;
+        border-radius: 0 0 16px 16px;
         padding-left: 52px;
         border: none;
         font-size: 22px;
+        line-height: 22px;
 
         &::placeholder {
             font-size: 22px;
@@ -51,6 +52,7 @@
     &__wrapper-button {
         display: flex;
         gap: 16px;
+        padding-top: 13px;
     }
 
     &__button {

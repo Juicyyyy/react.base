@@ -34,13 +34,16 @@ const Catalog: React.FC<CatalogProps> = ({ items }) => {
                     </div>
                     <div className='catalog__wrapper-left'>
                         <div className='catalog__text'>
-                            <span className='catalog__title'>{item.name}</span>
+                            <div className='catalog__text-wrapper'>
+                                <span className='catalog__title'>{item.name}</span>
+                                <span className='catalog__icon-favorite'></span>
+                            </div>
                             <span className='catalog__desc'>{item.desc}</span>
                         </div>
                         <div className='catalog__wrapper-right'>
                             <div className='catalog__wrapper-price-rating'>
                                 <div className='catalog__price'>
-                                    <span className='catalog__current-price'>{item.price} ₽</span>
+                                    <span className='catalog__current-price'>{item.price}₽</span>
                                     <span className='catalog__old-price'>{item.oldPrice} ₽</span>
                                 </div>
                                 <div className='catalog__rating'>

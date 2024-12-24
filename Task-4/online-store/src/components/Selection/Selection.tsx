@@ -28,7 +28,7 @@ const Selection: React.FC<SelectionProps> = ({ titleImage, items }) => {
                         <div className='selection__info'>
                             <div className='selection__wrapper'>
                                 <div className='selection__wrapper-price'>
-                                    <span className='selection__current-price'>{item.price} ₽</span>
+                                    <span className='selection__current-price'>{item.price}₽</span>
                                     {item.oldPrice && (
                                         <span className='selection__old-price'>{item.oldPrice} ₽</span>
                                     )}
