@@ -6,15 +6,19 @@ import Catalog from './components/Catalog/Catalog';
 import Selection from './components/Selection/Selection';
 import CatalogSelection from './components/CatalogSelection/CatalogSelection';
 import Footer from './components/Footer/Footer';
+import MobileMenu from './components/MobileMenu/MobileMenu';
+import useDeviceDetect from './hooks/useDeviceDetect';
 
 import catalogData from './data/catalogData.json'
 import selectionData from './data/selectionData.json';
 import './App.css'
 
 const App: React.FC = () => {
+  const { isMobile } = useDeviceDetect();
   return (
     <>
       <Header />
+      {isMobile ? <MobileMenu /> : ''}
       <div className='wrapper'>
         <Banner />
         <Categories />
@@ -22,11 +26,11 @@ const App: React.FC = () => {
       </div>
       <Selection titleImage="Для_дома" items={selectionData.home}/>
       <div className='wrapper'>
-        <CatalogSelection titleImage="Sale" items={catalogData.catalogSale} />
+        <CatalogSelection titleImage="sale" items={catalogData.sale} />
       </div>
       <Selection titleImage="Для_сна" items={selectionData.home}/>
       <div className='wrapper'>
-        <CatalogSelection titleImage="Сокровища_текст" items={catalogData.treasures} />
+        <CatalogSelection titleImage="treasures" items={catalogData.treasures} />
       </div>
       <Footer />
     </>

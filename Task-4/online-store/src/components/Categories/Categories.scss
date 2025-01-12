@@ -2,6 +2,10 @@
     margin-top: 8px;
     margin-bottom: 57px;
 
+    @media (max-width: 768px) {
+        margin-bottom: 41px;
+    }
+
     &__list {
         display: flex;
         gap: 6px;
@@ -10,7 +14,7 @@
         padding: 0;
         overflow: hidden;
 
-        @media (max-width: 375px) {
+        @media (max-width: 768px) {
             margin: 0;
         }
     }

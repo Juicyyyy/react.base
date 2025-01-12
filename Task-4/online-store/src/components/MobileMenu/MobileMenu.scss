@@ -1,0 +1,36 @@
+.mobile-menu {
+    background-color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    display: flex;
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+
+    &__button {
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        margin-right: 60px;
+    }
+
+    &__basket {
+        background-image: url(../../assets/icon/basket.svg);
+        margin: 0;
+    }
+
+    &__orders {
+        background-image: url(../../assets/icon/orders.svg);
+    }
+
+    &__favorites {
+        background-image: url(../../assets/icon/favorites.svg);
+    }
+
+    &__profile {
+        background-image: url(../../assets/icon/profile.svg);
+    }
+}

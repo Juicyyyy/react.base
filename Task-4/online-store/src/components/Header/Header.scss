@@ -6,6 +6,12 @@
     gap: 20px;
     padding: 0 16px 0 16px;
 
+    @media (max-width: 768px) {
+        height: 51px;
+        justify-content: space-between;
+        padding: 0 12px 0 12px;
+    }
+
     &__icon {
         font-size: 40px;
         font-weight: 600;
@@ -13,6 +19,10 @@
         color: #090909;
         cursor: pointer;
         padding-top: 5px;
+
+        @media (max-width: 768px) {
+            padding-top: 8px;
+        }
     }
 
     &__wrapper-input {
@@ -38,7 +48,7 @@
         }
     }
 
-    &__loupe {
+    &__search--loupe {
         content: '';
         position: absolute;
         background-image: url(../../assets/icon/loupe.svg);
@@ -53,6 +63,13 @@
         display: flex;
         gap: 16px;
         padding-top: 13px;
+
+        @media (max-width: 768px) {
+            gap: 0;
+            padding: 0;
+            padding-top: 9px;
+            margin: 0;
+        }
     }
 
     &__button {
@@ -73,7 +90,11 @@
         background-image: url(../../assets/icon/favorites.svg);
     }
 
-    &__profile{
+    &__profile {
         background-image: url(../../assets/icon/profile.svg);
+    }
+
+    &__loupe {
+        background-image: url(../../assets/icon/loupe_black.svg);
     }
 }

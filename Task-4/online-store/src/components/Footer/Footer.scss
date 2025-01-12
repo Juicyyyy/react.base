@@ -1,10 +1,17 @@
 .footer {
     background-color: #F2F7F7;
-    height: 32px;
     padding: 18px 16px 22px 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-radius: 12px 12px 0 0;
+
+    @media (max-width: 768px) {
+        padding: 19px 16px 28px 16px;
+        flex-direction: column;
+        gap: 14px;
+        margin-top: 48px;
+    }
 
     &__text {
         color: #BCCDD1;
@@ -18,6 +25,12 @@
         gap: 28px;
         align-items: center;
         padding-top: 4px;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 23px;
+        }
     }
 
     &__icons {
@@ -30,6 +43,7 @@
         width: 32px;
         height: 32px;
         background-repeat: no-repeat;
+        cursor: pointer;
     }
 
     &__telegram {
