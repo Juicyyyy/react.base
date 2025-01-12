@@ -1,4 +1,3 @@
-import React from 'react';
 import ItemRating from '../ItemRating/ItemRating';
 import useDeviceDetect from '../../hooks/useDeviceDetect';
 
@@ -23,7 +22,7 @@ type CatalogProps = {
     items: CatalogItem[];
 }
 
-const Catalog: React.FC<CatalogProps> = ({ items }) => {
+const Catalog = ({ items }: CatalogProps) => {
     const { isMobile } = useDeviceDetect();
 
     return (

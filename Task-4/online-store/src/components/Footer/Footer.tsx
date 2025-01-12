@@ -1,8 +1,6 @@
-import React from 'react';
-
 import './Footer.scss';
 
-const Footer: React.FC = () => {
+const Footer = () => {
     return (
         <footer className='footer'>
             <span className='footer__text footer__left'>© 2023 Магаз</span>

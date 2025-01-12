@@ -1,4 +1,3 @@
-import React from 'react';
 import ItemRating from '../ItemRating/ItemRating';
 import useDeviceDetect from '../../hooks/useDeviceDetect';
 
@@ -19,7 +18,7 @@ type SelectionProps = {
     items: CatalogItem[];
 }
 
-const Selection: React.FC<SelectionProps> = ({ titleImage, items }) => {
+const Selection = ({ titleImage, items }: SelectionProps) => {
     const { isMobile } = useDeviceDetect();
 
     return (

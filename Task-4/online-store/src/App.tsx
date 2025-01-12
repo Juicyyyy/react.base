@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from './components/Header/Header';
 import Banner from './components/Banner/Banner';
 import Categories from './components/Categories/Categories';
@@ -13,7 +12,7 @@ import catalogData from './data/catalogData.json'
 import selectionData from './data/selectionData.json';
 import './App.css'
 
-const App: React.FC = () => {
+const App = () => {
   const { isMobile } = useDeviceDetect();
   return (
     <>

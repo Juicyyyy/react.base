@@ -1,9 +1,8 @@
-import React from 'react';
 import useDeviceDetect from '../../hooks/useDeviceDetect';
 
 import './Header.scss';
 
-const Header: React.FC = () => {
+const Header = () => {
     const { isMobile } = useDeviceDetect();
 
     return (

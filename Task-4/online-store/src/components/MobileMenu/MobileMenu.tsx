@@ -2,7 +2,7 @@ import React from 'react';
 
 import './MobileMenu.scss';
 
-const MobileMenu: React.FC = () => {
+const MobileMenu = () => {
 
     return (
         <div className='mobile-menu'>

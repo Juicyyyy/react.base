@@ -1,4 +1,3 @@
-import React from 'react';
 import Catalog, {CatalogItem} from '../Catalog/Catalog';
 import useDeviceDetect from '../../hooks/useDeviceDetect';
 
@@ -9,7 +8,7 @@ type CatalogSelectionProps = {
     items: CatalogItem[];
 }
 
-const CatalogSelection: React.FC<CatalogSelectionProps> = ({ titleImage, items }) => {
+const CatalogSelection = ({ titleImage, items }: CatalogSelectionProps) => {
     const { isTablet } = useDeviceDetect();
 
     let titleStyle;

@@ -1,9 +1,8 @@
-import React from 'react';
 import categoriesData from '../../data/categoriesData.json';
 
 import './Categories.scss';
 
-const Categories: React.FC = () => {
+const Categories = () => {
     return (
         <div className='categories'>
             <ul className='categories__list'>

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import './ItemRating.scss';
 
 type ItemRatingProps = {
@@ -8,7 +6,7 @@ type ItemRatingProps = {
     color: string;
 }
 
-const ItemRating: React.FC<ItemRatingProps> = ({ itemStar, itemLike, color }) => {
+const ItemRating = ({ itemStar, itemLike, color }: ItemRatingProps) => {
     const textColorClass = color === 'white' ? 'item-rating__number--white' : '';
     const starColorClass = color === 'white' ? 'item-rating__star--white' : '';
     const likeColorClass = color === 'white' ? 'item-rating__like--white' : '';

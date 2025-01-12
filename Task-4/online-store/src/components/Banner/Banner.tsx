@@ -1,8 +1,6 @@
-import React from 'react';
-
 import './Banner.scss';
 
-const Banner: React.FC = () => {
+const Banner = () => {
     return (
         <div className='banner-wrapper'>
             <div className='banner'></div>
