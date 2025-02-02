@@ -11,7 +11,8 @@
             "like": 8492,
             "mobileHeight": 240,
             "marginTop": 0,
-            "color": "#BCCDD1"
+            "color": "#BCCDD1",
+            "category": ["Помощь психолога", "Гаджеты", "Предметы искусства"]
         },
         {
             "id": 2,
@@ -24,7 +25,8 @@
             "like": 8492,
             "mobileHeight": 488,
             "marginTop": 6,
-            "color": "#2E09E5"
+            "color": "#2E09E5",
+            "category": ["Гаджеты", "Предметы искусства", "Товары для дома"]
         },
         {
             "id": 3,
@@ -37,7 +39,8 @@
             "like": 8492,
             "mobileHeight": 240,
             "marginTop": 0,
-            "color": "#FAA700"
+            "color": "#FAA700",
+            "category": ["Товары для дома", "Предметы искусства", "Таланты"]
         }
     ],
     "sale": [
@@ -53,7 +56,8 @@
             "width": true,
             "mobileHeight": 240,
             "marginTop": 0,
-            "color": "#F94233"
+            "color": "#F94233",
+            "category": ["Таланты", "Товары для дома", "Магия"]
         },
         {
             "id": 2,
@@ -66,7 +70,8 @@
             "like": 8492,
             "mobileHeight": 488,
             "marginTop": 6,
-            "color": "#2E09E5"
+            "color": "#2E09E5",
+            "category": ["Магия", "Релакс", "Таланты"]
         },
         {
             "id": 3,
@@ -79,7 +84,8 @@
             "like": 8492,
             "mobileHeight": 240,
             "marginTop": 0,
-            "color": "#BCCDD1"
+            "color": "#BCCDD1",
+            "category": ["Магия", "Релакс", "Развлечения"]
         },
         {
             "id": 4,
@@ -92,7 +98,8 @@
             "like": 8492,
             "mobileHeight": 240,
             "marginTop": 0,
-            "color": "#FAA700"
+            "color": "#FAA700",
+            "category": ["Развлечения", "Сокровища", "Релакс"]
         },
         {
             "id": 5,
@@ -105,7 +112,8 @@
             "like": 8492,
             "mobileHeight": 488,
             "marginTop": 6,
-            "color": "#F94233"
+            "color": "#F94233",
+            "category": ["Недвижимость", "Сокровища", "Развлечения"]
         },
         {
             "id": 6,
@@ -118,7 +126,8 @@
             "like": 8492,
             "mobileHeight": 240,
             "marginTop": 0,
-            "color": "#BCCDD1"
+            "color": "#BCCDD1",
+            "category": ["Красота и здоровье", "Недвижимость", "Сокровища"]
         }
     ],
     "treasures": [
@@ -134,7 +143,8 @@
             "width": true,
             "mobileHeight": 240,
             "marginTop": 0,
-            "color": "#F94233"
+            "color": "#F94233",
+            "category": ["Могущество", "Недвижимость", "Красота и здоровье"]
         },
         {
             "id": 2,
@@ -147,7 +157,8 @@
             "like": 8492,
             "mobileHeight": 488,
             "marginTop": 6,
-            "color": "#FAA700"
+            "color": "#FAA700",
+            "category": ["Красота и здоровье", "Могущество", "Стиль"]
         },
         {
             "id": 3,
@@ -160,7 +171,8 @@
             "like": 8492,
             "mobileHeight": 240,
             "marginTop": 0,
-            "color": "#BCCDD1"
+            "color": "#BCCDD1",
+            "category": ["Сокровища", "Могущество", "Стиль"]
         },
         {
             "id": 4,
@@ -173,7 +185,8 @@
             "like": 8492,
             "mobileHeight": 240,
             "marginTop": 0,
-            "color": "#2E09E5"
+            "color": "#2E09E5",
+            "category": ["Сокровища", "Могущество", "Стиль"]
         },
         {
             "id": 5,
@@ -186,7 +199,8 @@
             "like": 8492,
             "mobileHeight": 488,
             "marginTop": 6,
-            "color": "#F94233"
+            "color": "#F94233",
+            "category": ["Сокровища", "Могущество", "Стиль"]
         },
         {
             "id": 6,
@@ -199,7 +213,8 @@
             "like": 8492,
             "mobileHeight": 240,
             "marginTop": 0,
-            "color": "#BCCDD1"
+            "color": "#BCCDD1",
+            "category": ["Сокровища", "Могущество", "Стиль"]
         }
     ]
 }

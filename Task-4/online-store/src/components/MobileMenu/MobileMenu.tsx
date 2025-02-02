@@ -1,6 +1,5 @@
-import React from 'react';
-
 import './MobileMenu.scss';
+import '../../data/catalogData.json'
 
 const MobileMenu = () => {
 

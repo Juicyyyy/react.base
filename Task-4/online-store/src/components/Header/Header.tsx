@@ -10,6 +10,7 @@ type DropdownProps = {
     handleDeleteQuery: (query: string) => void;
     handleOverlayClick: () => void;
     filteredCategories: CategoryType[];
+    onCategorySelect: (categoryName: string) => void;
 }
 
 type DropdownItemProps = {
@@ -23,7 +24,12 @@ type CategoryType = {
     image: string;
 }
 
-const Header = () => {
+type HeaderProps = {
+    onIconClick: () => void;
+    onCategorySelect: (categoryName: string) => void;
+}
+
+const Header = ({ onIconClick, onCategorySelect }: HeaderProps) => {
     const [isDropdownVisible, setDropdownVisible] = useState(false);
     const [searchQuery, setSearchQuery] = useState<string>('');
     const [searchHistory, setSearchHistory] = useState<string[]>([]);
@@ -101,7 +107,7 @@ const Header = () => {
 
     return (
         <header className='header'>
-            {(isDropdownVisible && isMobile) ? '' : <span className='header__icon'>магаз</span>}
+            {(isDropdownVisible && isMobile) ? '' : <span className='header__icon' onClick={onIconClick}>магаз</span>}
             {!isMobile && (
                 <div className='header__wrapper-input'>
                     <input
@@ -121,6 +127,7 @@ const Header = () => {
                             popularQueries={popularQueries} 
                             handleDeleteQuery={handleDeleteQuery}
                             handleOverlayClick={handleOverlayClick}
+                            onCategorySelect={onCategorySelect}
                         />
                     )}
                 </div>
@@ -146,6 +153,7 @@ const Header = () => {
                                     popularQueries={popularQueries} 
                                     handleDeleteQuery={handleDeleteQuery}
                                     handleOverlayClick={handleOverlayClick}
+                                    onCategorySelect={onCategorySelect}
                                 />
                             </>)
                             :
@@ -165,7 +173,7 @@ const Header = () => {
     );
 };
 
-const Dropdown = ({filteredQueries, filteredCategories, popularQueries, handleDeleteQuery, handleOverlayClick }: DropdownProps) => (
+const Dropdown = ({filteredQueries, filteredCategories, popularQueries, handleDeleteQuery, handleOverlayClick, onCategorySelect }: DropdownProps) => (
     <div className='header__wrapper-dropdown'>
         <div className='overlay' onClick={handleOverlayClick}></div>
         <div className='header__dropdown'>
@@ -188,7 +196,7 @@ const Dropdown = ({filteredQueries, filteredCategories, popularQueries, handleDe
                     />
                 ))
             )}
-            <Categories categories={filteredCategories} />
+            <Categories categories={filteredCategories} onCategorySelect={onCategorySelect} />
         </div>
     </div>
 );

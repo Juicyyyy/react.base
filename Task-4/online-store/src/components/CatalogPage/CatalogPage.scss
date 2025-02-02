@@ -1,0 +1,48 @@
+.catalog-page {
+    margin-top: 40px;
+    margin-bottom: 48px;
+
+    &__title {
+        font-size: 44px;
+        line-height: 44px;
+        margin: 0;
+    }
+
+    &__header {
+        display: flex;
+        align-items: flex-end;
+        gap: 10px;
+        margin-bottom: 28px;
+        margin-left: 12px;
+    }
+
+    &__count {
+        font-size: 22px;
+        line-height: 22px;
+        color: #BCCDD1;
+    }
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 29px;
+        column-gap: 4px;
+
+        @media (max-width: 768px) {
+            row-gap: 28px;
+        }
+    }
+}
+
+.selection__current-price {
+    color: #090909;
+}
+
+.selection__old-price {
+    color: #BCCDD1;
+    text-decoration: line-through #BCCDD1;
+}
+
+.selection__name {
+    color: #090909;
+}

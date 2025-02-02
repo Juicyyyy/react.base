@@ -9,15 +9,16 @@ type Category = {
 }
 
 type CategoriesProps = {
-    categories: Category[];
+    categories?: Category[];
+    onCategorySelect: (categoryName: string) => void;
 }
 
-const Categories = ({ categories = categoriesData.categories}: CategoriesProps) => {
+const Categories = ({ categories = categoriesData.categories, onCategorySelect}: CategoriesProps) => {
     return (
         <div className='categories'>
             <ul className='categories__list'>
                 {categories.map(category => (
-                    <li className='categories__item' key={category.id}>
+                    <li className='categories__item' key={category.id} onClick={() => onCategorySelect(category.name)}>
                         <img src={`./src/assets/img/${category.image}`} className='categories__img' alt={category.name}/>
                         <span className='categories__title'>{category.name}</span>
                     </li>
